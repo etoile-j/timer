@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer</title>
+    <style>
+        body {
+            background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+            background-repeat: no-repeat;
+        
+        }
+
+        .timerBox {
+            width: 400px;
+            padding: 48px 44px 40px;
+            background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+            box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        .TIMER_h1 {
+            color: #FFFFFF;
+            margin: 0;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #3D538A;
+        }
+
+        .timeZone {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 40px;
+            border-top: 1px solid #5B75B4;
+            color: #A5B6EE;
+        }
+
+        .timebox {
+            width: 80px;
+            padding: 15px 0;
+            background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+            border: 1px solid #354971;
+            border-radius: 4px;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 40px;
+            box-sizing: border-box;
+        }
+        
+        .btn {
+            padding: 16px 23px;
+            background: #324577;
+            box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #617199;
+        }
+
+        .weniv_bottom {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #8596BF;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h2>
+            <img src="img/weniv-logo.png">
+        </h2>
+        <article class="timerBox">
+            <h1 class="TIMER_h1">TIMER</h1>
+            <div class="timeZone">
+                <div class="timebox_wrap">
+                    <strong>HRS</strong>
+                    <div class="timebox">
+                        00
+                    </div>
+                </div>
+                <div>
+                    <img src="img/dot.png">
+                </div>
+                <div class="timebox_wrap">
+                    <strong>MIN</strong>
+                    <div class="timebox">
+                        00
+                    </div>
+                </div>
+                <div>
+                    <img src="img/dot.png">
+                </div>
+                <div class="timebox_wrap">
+                    <strong>SEC</strong>
+                    <div class="timebox">
+                        00
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn">START</button>
+            <button type="button" class="btn">RESET</button>
+        </article>
+        <strong class="weniv_bottom">ⓒ WENIV Corp.</strong>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
